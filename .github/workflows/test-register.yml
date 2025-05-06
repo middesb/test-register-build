@@ -2,7 +2,7 @@ name: PREPROD - GHA Build Artifact Publish Workflow
 
 on:
   push:
-   branches: [ test-wf ]
+   branches: [ test-register-build ]
   
 jobs:
   publish-artifact:
